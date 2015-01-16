@@ -26,8 +26,8 @@ import urllib
 
 CLIENT_ID = "eRES2NGOiTgniw" # Fill this in with your client ID
 CLIENT_SECRET = None # This is mobile device usage, no client_secret for Reddit
-REDIRECT_URI = "https://powerful-eyrie-3894.herokuapp.com:65011/authorize_callback"
-#REDIRECT_URI = "https://107.22.246.182:65011/authorize_callback"
+#REDIRECT_URI = "http//127.0.0.1:65011/authorize_callback"
+REDIRECT_URI = "https://107.22.246.182:65011/authorize_callback"
 #REDIRECT_URI = "localhost:65011/reddit_callback"
 STATE = None
 
@@ -147,7 +147,7 @@ def get_username(access_token):
 
 
 if __name__ == '__main__':
-    app.run(host="107.22.246.182" ,debug=True, port=65011)
+    app.run(host='107.22.246.182' ,debug=True, port=65011)
 
 
 # Trust: Update authorization from identity provider
