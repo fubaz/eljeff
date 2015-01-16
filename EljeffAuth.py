@@ -147,7 +147,7 @@ def get_username(access_token):
 
 
 if __name__ == '__main__':
-    app.run(host='107.22.246.182' ,debug=True, port=65011)
+    app.run(host='0.0.0.0' ,debug=True, port=65011)
 
 
 # Trust: Update authorization from identity provider
