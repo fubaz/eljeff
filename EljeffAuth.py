@@ -147,7 +147,7 @@ def get_username(access_token):
 
 
 if __name__ == '__main__':
-    app.run(debug=True, port=65011)
+    app.run(host="https://powerful-eyrie-3894.herokuapp.com" ,debug=True, port=65011)
 
 
 # Trust: Update authorization from identity provider
