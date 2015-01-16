@@ -27,7 +27,7 @@ import urllib
 CLIENT_ID = "eRES2NGOiTgniw" # Fill this in with your client ID
 CLIENT_SECRET = None # This is mobile device usage, no client_secret for Reddit
 #REDIRECT_URI = "127.0.0.1:65010/authorize_callback"
-REDIRECT_URI = "http://192.168.1.33:65011/authorize_callback"
+REDIRECT_URI = "https://powerful-eyrie-3894.herokuapp.com:65011/authorize_callback"
 #REDIRECT_URI = "localhost:65011/reddit_callback"
 STATE = None
 
